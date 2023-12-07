@@ -1,29 +1,9 @@
----
-layout: single
-title: Cascade - Hack The Box
-excerpt: "Cascade es una máquina Windows de dificultad media en la cuál debemos conseguir las credenciales de tres usuarios. En primer lugar, se deberá enumerar LDAP de manera manual y conseguir información que nos sea valiosa, luego ya con acceso al sistema mediante Samba, encontraremos un archivo el cual debemos descifrar una contraseña. En la fase de escalamiento de privilegios, se aplicará ingeniería reversa a un ejecutable y así obtener las credenciales de un usuario. Finalmente, debemos recuperar la cuenta de un usuario del AD para finalmente obtener acceso como administrador."
-date: 2020-07-25
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/cascade_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - LDAP
-  - SMB
-  - Reversing
-  - Active-Diectory
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/cascade_logo.png">
+  <img src="https://miro.medium.com/v2/resize:fit:1186/format:webp/1*BFD5qoMWXIxAoCZ4VZ1r-g.png"/>
 </p>
 
 Cascade es una máquina Windows de dificultad media en la cuál debemos conseguir las credenciales de tres usuarios. En primer lugar, se deberá enumerar LDAP de manera manual y conseguir información que nos sea valiosa, luego ya con acceso al sistema mediante Samba, encontraremos un archivo el cual debemos descifrar una contraseña. En la fase de escalamiento de privilegios, se aplicará ingeniería reversa a un ejecutable y así obtener las credenciales de un usuario. Finalmente, debemos recuperar la cuenta de un usuario del AD para obtener acceso como administrador.
-
 
 ## Reconocimiento y Enumeración
 
