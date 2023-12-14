@@ -1,24 +1,6 @@
----
-layout: single
-title: Traverxec - Hack The Box
-excerpt: "Traverxec es una máquina Linux de dificultad fácil en la cual se va a explotar una vulnerabilidad de ejecución de código remoto en el servidor web Nostromo 1.9.6 y para el root, aprovechar que el usuario puede ejecutar journalctl con privilegios."
-date: 2020-06-01
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/traverxec_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - Nostromo
-  - SSH
-  - Journalctl
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/traverxec_logo.png">
+<img src="https://rubytox.fr/img/htb_traverxec/banner.png">
 </p>
 
 
