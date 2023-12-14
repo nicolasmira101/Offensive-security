@@ -1,25 +1,6 @@
----
-layout: single
-title: Tabby- Hack The Box
-excerpt: "Tabby es una máquina Linux de dificultad fácil en la cual vamos a aprovechar de la vulnerabilidad LFI para leer archivos sensibles del servidor de Apache Tomcat 9. Posteriormente debemos crear un payload en Java para tener shell y de esta manera, realizar enumeración de manera manual para encontrar un archivo .zip que contiene la contraseña del usuario. Para la fase de escalamiento de privilegios, observamos que es usuario es miembro del grupo lxd, así que nos vamos a aprovechar de esto para escalar privilegios y convertirnos en administrador."
-date: 2020-xx-xx
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/tabby_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - LFI
-  - Directoy traversal
-  - Apache Tomcat
-  - lxd 	
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/tabby_logo.png">
+<img src="https://miro.medium.com/v2/resize:fit:591/1*mh2clkXmiJxHT_y7hU2WxQ.png">
 </p>
 
 
@@ -116,19 +97,19 @@ Algunos de los puertos que están abiertos corresponde a los siguientes servicio
 Revisando cada una de las páginas disponibles del sitio, encontramos que en la página `news` en la URL se incluye el archivo `statement` como se observa en la siguiente figura
 
 <p align="center">
-<img src="/assets/images/hack-the-box/tabby/lfi.png">
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*TuPvst2NG-matKdnnnfUdw.png">
 </p>
 
 Vamos a revisar si el sitio es vulnerable a [LFI](https://resources.infosecinstitute.com/php-lab-file-inclusion-attacks) consiste en incluir ficheros locales, es decir, archivos que se encuentran en el mismo servidor de la web con este tipo de fallo. Esto se produce como consecuencia de un fallo en la programación de la página, filtrando inadecuadamente lo que se incluye al usar funciones en PHP para incluir archivos. En este caso, vamos a probar la vulnerabilidad de directory traversal que una forma de obtener acceso no autorizado a archivos sensibles.
 
 <p align="center">
-<img src="/assets/images/hack-the-box/tabby/directory-traversal.png">
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*DXAQJyl_TI7ld1LnIl3OHQ.png">
 </p>
 
 Como se observa en la imagen anterior, el sitio si es vulnerable a este tipo de ataque. Ahora nos dirigimos a la página que está en el puerto 8080 y encontramos que se trata de un servidor web Apache Tomcat 9.
 
 <p align="center">
-<img src="/assets/images/hack-the-box/tabby/apache-tomcat.png">
+<img src="https://0xdfimages.gitlab.io/img/image-20200622170225550.webp">
 </p>
 
 Buscando en internet la ubicación de los archivos del paquete de Tomcat, encontramos en la siguiente [página](https://packages.debian.org/sid/all/tomcat9/filelist) de Debian donde se encuentran estos archivos. De los que más nos interesan son los siguientes:
@@ -144,7 +125,7 @@ Buscando en internet la ubicación de los archivos del paquete de Tomcat, encont
 Como el sitio es vulnerable a `directory traversal` vamos a probar con las ubicaciones anteriores para mirar si alguno de estos archivos nos da alguna información sensible.  En la siguiente imagen, podemos observar que tenemos acceso al archivo `tomcat-users.xml`y encontramos el nombre del usuario `tomcat` y su contraseña `$3cureP4s5w0rd123!`.
 
 <p align="center">
-<img src="/assets/images/hack-the-box/tabby/usuario.png">
+<img src="https://0xdfimages.gitlab.io/img/image-20200622203509614.webp">
 </p>
 
 
