@@ -1,26 +1,6 @@
----
-
-layout: single
-title: Traceback- Hack The Box
-excerpt: "Traceback es una máquina Linux de dificultad fácil en la cual en la fase inicial vamos a interactuar con una webshell llamada smevk.php, en la cual debemos crear un par de llaves ssh para tener permisos en el sistema y luego, interactuar con una consola en LUA para obtener la flag del usuario. En la fase de escalamiento de privilegios, vamos a revisar los procesos que están corriendo en segundo plano y configurar uno de estos procesos para agregar una shell reversa en el código y así, tener acceso como root."
-date: 2020-08-15
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/traceback_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - Webshell
-  - SSH
-  - Lua
-  - Pspy
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/traceback_logo.png">
+<img src="https://miro.medium.com/v2/resize:fit:594/1*TAkedVdQ7jwuqQ1_LsvJ-w.png">
 </p>
 
 
