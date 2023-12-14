@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://res.cloudinary.com/cloudgang/image/upload/v1576066696/lame_image_m9ccnp.jpg">
+<img src="https://miro.medium.com/v2/resize:fit:587/1*wKEVaRX8VaMjioP87jbj3A.png">
 </p>
 
 Lame es una máquina en Linux de dificultad fácil en la cual se va a utilizar un script en python para explotar una vulnerabilidad en SMB (CVE-2007-2447) sin usar **Metasploit**.
