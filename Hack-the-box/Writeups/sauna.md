@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://miro.medium.com/v2/resize:fit:593/1*EBQbuWg_rrm5dHMNrR6jCQ.png">
+<img src="https://pbs.twimg.com/media/EQplyVRXUAAx0Ij.jpg">
 </p>
 
 Sauna es una máquina Windows de dificultad fácil en la cual se va a realizar un ataque de AS-REP-Roasting y en la fase de escalamiento de privilegios enumeración con la herramienta WinPEAS donde encontramos una contraseña y posteriormente hacer el volcado de los hashes de las contraseña del Domain Controller.
