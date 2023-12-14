@@ -1,24 +1,6 @@
----
-layout: single
-title: Remote- Hack The Box
-excerpt: "Remote es una máquina Windows de dificultad fácil en la cual vamos a explotar una vulnerabilidad en Umbraco CMS 7.12.4 que permite la ejecución de código remoto en usuarios autenticados y en la fase de escalamiento de privilegios, vamos a aprovechar que el usuario tiene acceso para modificar el servicio UsoSvc que se ejecuta con privilegios de administrador."
-date: 2020-09-05
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/remote_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - NFS
-  - Umbraco
-  - UsoSvc	
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/remote_logo.png">
+<img src="https://netosec.com/wp-content/uploads/2020/09/htb-remote-info.png">
 </p>
 
 
