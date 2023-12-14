@@ -1,25 +1,6 @@
----
-layout: single
-title: Lightweight - Hack The Box
-excerpt: "Lightweight es una máquina en Linux de dificultad media en la cual debemos navegr en el entorno OpenLDAP para obtener el control de la máquina."
-date: 2020-04-15
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/lightweight_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - LDAP
-  - Tcpdump
-  - Nmap
-  - SSH
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/lightweight_logo.png">
+<img src="https://miro.medium.com/max/648/1*Ir0sc5FpfHz_hHZ4KBUQuA.png">
 </p>
 
 Lightweight es una máquina en Linux de dificultad media en la cual debemos navegar en el entorno OpenLDAP para obtener el control de la máquina.
