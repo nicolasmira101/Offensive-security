@@ -1,23 +1,6 @@
----
-layout: single
-title: Magic- Hack The Box
-excerpt: "Magic es una máquina Linux de dificultad media en la cual se va a aprovechar la vulnerabilidad en inyección de código SQL y luego subir una imagen en la cual vamos a incrustar un payload para obtener la shell inicial. En la fase de escalamiento de privilegios, vamos a manipular el PATH de un programa SUID."
-date: 2020-08-22
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/magic_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - Inyección SQL
-  - PATH hijacking
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/magic_logo.png">
+<img src="https://miro.medium.com/v2/resize:fit:594/1*BFCSebWkzsbNGwgfbFMYFw.png">
 </p>
 
 
