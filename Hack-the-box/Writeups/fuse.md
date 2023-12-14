@@ -1,30 +1,7 @@
----
-layout: single
-title: Fuse- Hack The Box
-excerpt: "Fuse es una máquina Windows de dificultad media en la cual, encontraremos en la página web un par de usuario y la contraseña que es el nombre de uno de los documentos. Posteriormente debemos cambiar esta contraseña y rápidamente logearnos en rpcclient para que con el comando enumprinters encontremos una contraseña y con crackmapexec podamos encontramos el usuario asociado a esta contraseña. Para la fase de escalamiento de privilegios vamos a aprovecharnos del privilegio SeLoadDriverPrivilege para tener shell como administrador."
-date: 2020-xx-xx
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/fuse_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - SMB
-  - RPC
-  - Password spray
-  - SeLoadDriverPrivilege
-  - Capcom.sys	
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/fuse_logo.png">
+<img src="https://snowscan.io/assets/images/htb-writeup-fuse/fuse_logo.png">
 </p>
-
-
-
 
 Fuse es una máquina Windows de dificultad media en la cual, encontraremos en la página web un par de usuario y la contraseña que es el nombre de uno de los documentos. Posteriormente debemos cambiar esta contraseña y rápidamente logearnos en `rpcclient` para que con el comando `enumprinters` encontremos una contraseña y con `crackmapexec` podamos encontramos el usuario asociado a esta contraseña. Para la fase de escalamiento de privilegios vamos a aprovecharnos del privilegio `SeLoadDriverPrivilege` para tener shell como administrador.
 
