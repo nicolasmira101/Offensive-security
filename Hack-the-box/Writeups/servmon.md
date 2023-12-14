@@ -1,25 +1,6 @@
----
-layout: single
-title: ServMon - Hack The Box
-excerpt: "ServMon es una máquina Windows de dificultad fácil en la cual se va a explotar una vulnerabilidad en TVT NVMS 1000 (CVE-2019-20085) y en la fase de escalamiento de privilegios una vulnerabilidad en NSClient++ 0.5.2.35."
-date: 2020-06-20
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/servmon_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - FTP
-  - Hydra
-  - SSH
-  - NSClient++
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/servmon_logo.png">
+<img src="https://miro.medium.com/v2/resize:fit:586/1*W7wx3K03xt2NStURTWn6fg.png">
 </p>
 
 ServMon es una máquina Windows de dificultad fácil en la cual se va a explotar una vulnerabilidad en TVT NVMS 1000 (CVE-2019-20085) y en la fase de escalamiento de privilegios una vulnerabilidad en NSClient++ 0.5.2.35.
