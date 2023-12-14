@@ -136,12 +136,6 @@ Algunos de los puertos que están abiertos corresponde a los siguientes servicio
 
 ### Enumeración HTTP
 
-Entramos al sitio web y nos encontramos con el siguiente error.
-
-<p align="center">
-<img src="/assets/images/hack-the-box/fuse/error-http.png">
-</p>
-
 En el output del nmap encontramos que el `FQDN`, es decir, el [nombre de dominio completo](https://linube.com/blog/fqdn-que-es/) que se refiere a la dirección completa y única de una página en internet. Consiste en el nombre de host y el dominio, y se utiliza para localizar hosts específicos en línea y acceder a ellos mediante la resolución de nombres.
 
 Por lo anterior, debemos agregar el `FQDN` en el archivo `/etc/hosts` o simplemente recargara la página.
@@ -153,21 +147,13 @@ Por lo anterior, debemos agregar el `FQDN` en el archivo `/etc/hosts` o simpleme
 Una vez ingresamos al sitio, encontramos que se trata de `PaperCut™ Print Logger` que es un programa gratuito de registro de impresiones. En la siguiente imagen vemos que hay unos hipervínculos para acceder a la información de las impresiones.
 
 <p align="center">
-<img src="/assets/images/hack-the-box/fuse/index-page.png">
+<img src="https://i.imgur.com/oUlRoHN.png">
 </p>
 
 Abrimos los 3 links ya sea en HTML o Excel y encontramos que en la segunda columna hay unos nombres de usuarios
 
 <p align="center">
-<img src="/assets/images/hack-the-box/fuse/users-1.png">
-</p>
-
-<p align="center">
-<img src="/assets/images/hack-the-box/fuse/users-2.png">
-</p>
-
-<p align="center">
-<img src="/assets/images/hack-the-box/fuse/users-3.png">
+<img src="https://i.imgur.com/nuMqKFl.png">
 </p>
 
 Creamos una lista con estos usuarios.
