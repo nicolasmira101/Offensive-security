@@ -1,25 +1,6 @@
----
-layout: single
-title: Postman - Hack The Box
-excerpt: "Postman es una máquina Linux de dificultad fácil en la cual se va a explotar el servicio Redis que se encuentra mal configurado. En la fase de escalamiento de privilegios, se va a explotar una vulnerabilidad en Webmin 1.910 que permite actualizar paquetes a los usuarios autorizados."
-date: 2020-06-02
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/postman_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - Redis
-  - SSH
-  - Webmin
-
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/postman_logo.png">
+<img src="https://th.bing.com/th/id/R.90ae6582f853318e31741eadfc6f9aac?rik=nPCuZJcKHzl9wQ&pid=ImgRaw&r=0">
 </p>
 
 
