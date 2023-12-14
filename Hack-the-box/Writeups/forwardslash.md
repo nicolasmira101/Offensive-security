@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/9076747/82154121-1d149700-986c-11ea-8a38-5cf4aabb7eb2.png">
+<img src="https://snowscan.io/assets/images/htb-writeup-forwardslash/forwardslash_logo.png">
 </p>
 
 ForwardSlash es una máquina Linux de dificultad difícil en la cuál nos aprovecharemos de la vulnerabilidad LFI (Local File Inclusion) en el servidor web y en el escalamiento de privilegios, el desarrollo de un script en Python para descifrar un archivo que contiene la contraseña de un directorio en el cual el usuario puede ejecutar comando como administrador sin ser root.
