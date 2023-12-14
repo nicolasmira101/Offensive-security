@@ -1,25 +1,6 @@
----
-layout: single
-title: Lame - Hack The Box
-excerpt: "Lame es una máquina en Linux de dificultad fácil en la cual se va a utilizar un script en python para explotar una vulnerabilidad en Samba (CVE-2007-2447)"
-date: 2020-03-20
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/lame_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - SMB
-  - Python
-  - Nmap
-  - Netcat
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/lame_logo.png">
+<img src="https://res.cloudinary.com/cloudgang/image/upload/v1576066696/lame_image_m9ccnp.jpg">
 </p>
 
 Lame es una máquina en Linux de dificultad fácil en la cual se va a utilizar un script en python para explotar una vulnerabilidad en SMB (CVE-2007-2447) sin usar **Metasploit**.
