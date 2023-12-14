@@ -1,23 +1,6 @@
----
-layout: single
-title: Optimum - Hack The Box
-excerpt: "Optimum es una máquina Windows de dificultad fácil en la cual se va a explotar una vulnerabilidad en HTTP File Server 2.3 (CVE-2014-6287) que permite la ejecución de código remoto. Para la fase de escalamiento de privilegios, vamos a revisar qué parches aún no se han instalado en la máquina y de esta forma provecharnos de la vulnerabilidad MS16-098 (CVE-2016-3309) RGNOBJ Integer Overflow en Windows 8.1 x64 bit al abusar de objetos GDI."
-date: 2020-06-20
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/optimum-logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - HTTP File Server
-  - MS16-098
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/optimum-logo.png">
+<img src="https://miro.medium.com/v2/resize:fit:711/1*2JISyuW5P8K04KyzoxhLng.png">
 </p>
 
 
