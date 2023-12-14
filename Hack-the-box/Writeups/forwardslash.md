@@ -1,26 +1,6 @@
----
-layout: single
-title: ForwardSlash - Hack The Box
-excerpt: "ForwardSlash es una máquina Linux de dificultad difícil en la cuál nos aprovecharemos de la vulnerabilidad LFI (Local File Inclusion) en el servidor web y en el escalamiento de privilegios, el desarrollo de un script en Python para descifrar un archivo que contiene la contraseña de un directorio en el cual el usuario puede ejecutar comando como administrador sin ser root."
-date: 2020-07-04
-classes: wide
-header:
-  teaser: /assets/images/hack-the-box/forwardslash_logo.png
-  teaser_home_page: true
-  icon: /assets/images/hack-the-box/hackthebox.webp
-categories:
-  - Hack-The-Box
-  - Pentesting
-tags:
-  - Fuzzing
-  - LFI
-  - SSH
-  - Burpsuite
-  - Python
----
 
 <p align="center">
-<img src="/assets/images/hack-the-box/forwardslash_logo.png">
+<img src="https://user-images.githubusercontent.com/9076747/82154121-1d149700-986c-11ea-8a38-5cf4aabb7eb2.png">
 </p>
 
 ForwardSlash es una máquina Linux de dificultad difícil en la cuál nos aprovecharemos de la vulnerabilidad LFI (Local File Inclusion) en el servidor web y en el escalamiento de privilegios, el desarrollo de un script en Python para descifrar un archivo que contiene la contraseña de un directorio en el cual el usuario puede ejecutar comando como administrador sin ser root.
